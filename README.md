@@ -20,3 +20,19 @@ https://mybinder.org/v2/gh/fangohr/reproducibility-repository-example/HEAD?labpa
 
 It may take a few minutes for this link to redirect to a Notebook in the browser. Once this has arrived, one can reproduce
 the figure by re-executing all cells in the notebook by pressing `SHIFT-RETURN` once for each cell.
+
+## Software dependencies and installation
+
+Given Python3 (tested on python3.11), one needs to install the packages listed in [`requirements.txt`](requirements.txt). For example:
+
+```console
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+To be able to execute the notebooks (to recreate `figure1.pdf`), one also needs to install 
+the Jupyter notebook (for example `pip install notebook==7.0.2`). Run the notebook interactively 
+using `jupyter-notebook figure1.ipynb`, or execute as a script using 
+`jupyter-nbconvert --to html --execute figure1.ipynb`.
+
+Alternatively, explore the notebook using the cloud-hosted [Binder service](https://mybinder.org/v2/gh/fangohr/reproducibility-repository-example/HEAD): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fangohr/reproducibility-repository-example/HEAD).
