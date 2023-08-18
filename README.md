@@ -40,5 +40,5 @@ Alternatively, explore the notebook using the cloud-hosted mentioned above.
 ## Data source
 
 The data file [`time_series_covid19_deaths_global.csv`](time_series_covid19_deaths_global.csv) is obtained as is from 
-the "COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University" ( https://github.com/CSSEGISandData/COVID-19) and licensed there under the Creative Commons Attribution 4.0 International (CC BY 4.0).
+the "COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University" ( https://github.com/CSSEGISandData/COVID-19) and licensed there under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
