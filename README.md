@@ -16,7 +16,7 @@ with the publication to allow others to *reproduce* the figure (and *re-use* the
 
 Using Binder, it is possible to re-execute this notebook on a cloud resource. This can be tested by following this link:
 
-https://mybinder.org/v2/gh/fangohr/reproducibility-repository-example/HEAD?labpath=figure1.ipynb
+https://mybinder.org/v2/gh/fangohr/reproducibility-repository-example/HEAD?labpath=figure1.ipynb ([![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fangohr/reproducibility-repository-example/HEAD))
 
 It may take a few minutes for this link to redirect to a Notebook in the browser. Once this has arrived, one can reproduce
 the figure by re-executing all cells in the notebook by pressing `SHIFT-RETURN` once for each cell.
@@ -35,4 +35,10 @@ the Jupyter notebook (for example `pip install notebook==7.0.2`). Run the notebo
 using `jupyter-notebook figure1.ipynb`, or execute as a script using 
 `jupyter-nbconvert --to html --execute figure1.ipynb`.
 
-Alternatively, explore the notebook using the cloud-hosted [Binder service](https://mybinder.org/v2/gh/fangohr/reproducibility-repository-example/HEAD): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fangohr/reproducibility-repository-example/HEAD).
+Alternatively, explore the notebook using the cloud-hosted mentioned above.  
+
+## Data source
+
+The data file [`time_series_covid19_deaths_global.csv`](time_series_covid19_deaths_global.csv) is obtained as is from 
+the "COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University" ( https://github.com/CSSEGISandData/COVID-19) and licensed there under the Creative Commons Attribution 4.0 International (CC BY 4.0).
+
