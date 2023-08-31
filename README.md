@@ -17,7 +17,9 @@ with the publication to allow others to *reproduce* the figure (and *re-use* the
 
 Using Binder, it is possible to re-execute this notebook on a cloud resource. This can be tested by following this link:
 
-https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fhafan%2Freproducibility-repository-example/HEAD?labpath=figure1.ipynb ([![Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fhafan%2Freproducibility-repository-example/HEAD))
+[![Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fhafan%2Freproducibility-repository-example/HEAD) 
+https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fhafan%2Freproducibility-repository-example/HEAD?labpath=figure1.ipynb 
+
 
 
 It may take a few minutes for this link to redirect to a Notebook in the browser. Once this has arrived, one can reproduce
