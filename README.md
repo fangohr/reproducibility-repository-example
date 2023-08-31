@@ -44,4 +44,15 @@ the "COVID-19 Data Repository by the Center for Systems Science and Engineering 
 
 All other files are made availble under the [BSD 3-Clause "New" or "Revised" License](LICENSE).
 
+## Clone of this repository at Max Planck Compute and Data Facility (MPCDF)
+
+Useful if mybinder.org is overloaded.
+
+- https://gitlab.mpcdf.mpg.de/hafan/reproducibility-repository-example
+
+- Binder at MPCDF: ([![Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fhafan%2Freproducibility-repository-example/HEAD))
+
+
+
+
 
