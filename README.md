@@ -9,7 +9,7 @@ with the publication to allow others to *reproduce* the figure (and *re-use* the
 
 - [`figure1.ipynb`](figure1.ipynb): A jupyter notebook to create the `figure1.pdf` file from the raw data
 - [`requirements.txt`](requirements.txt): software specification for Python libraries needed in the notebook
-- ['runtime.txt'](runtime.txt): specify which Python version to use
+- [`runtime.txt`](runtime.txt): specify which Python version to use
 - [`time_series_covid19_deaths_global.csv`](time_series_covid19_deaths_global.csv): the raw data
 - [`README.md`](README.md) -- this file
 
