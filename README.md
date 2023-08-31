@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fangohr/reproducibility-repository-example/HEAD)
+([![Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fhafan%2Freproducibility-repository-example/HEAD))
 
 # Demonstration of a (file) repository for reproducibility
 
@@ -9,6 +9,7 @@ with the publication to allow others to *reproduce* the figure (and *re-use* the
 
 - [`figure1.ipynb`](figure1.ipynb): A jupyter notebook to create the `figure1.pdf` file from the raw data
 - [`requirements.txt`](requirements.txt): software specification for Python libraries needed in the notebook
+- ['runtime.txt'](runtime.txt): specify which Python version to use
 - [`time_series_covid19_deaths_global.csv`](time_series_covid19_deaths_global.csv): the raw data
 - [`README.md`](README.md) -- this file
 
@@ -16,10 +17,7 @@ with the publication to allow others to *reproduce* the figure (and *re-use* the
 
 Using Binder, it is possible to re-execute this notebook on a cloud resource. This can be tested by following this link:
 
-https://mybinder.org/v2/gh/fangohr/reproducibility-repository-example/HEAD?labpath=figure1.ipynb ([![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fangohr/reproducibility-repository-example/HEAD))
-
-https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fhafan%2Freproducibility-repository-example/HEAD?labpath=figure1.ipynb ([![Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fhafan%2Freproducibility-repository-example/HEAD)
-
+https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fhafan%2Freproducibility-repository-example/HEAD?labpath=figure1.ipynb ([![Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fhafan%2Freproducibility-repository-example/HEAD))
 
 
 It may take a few minutes for this link to redirect to a Notebook in the browser. Once this has arrived, one can reproduce
@@ -27,7 +25,8 @@ the figure by re-executing all cells in the notebook by pressing `SHIFT-RETURN` 
 
 ## Software dependencies and installation
 
-Given Python3 (tested on python3.11), one needs to install the packages listed in [`requirements.txt`](requirements.txt). For example:
+Given Python3 (tested on python3.11 and python3.10), one needs to install the
+packages listed in [`requirements.txt`](requirements.txt). For example:
 
 ```console
 python3 -m venv venv
