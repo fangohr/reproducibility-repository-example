@@ -57,7 +57,7 @@ Useful if mybinder.org is overloaded.
 
 - Binder at MPCDF: [![Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fhafan%2Freproducibility-repository-example/HEAD)
 
-
+- Binder at mybinder.org: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fangohr/reproducibility-repository-example/HEAD)
 
 
 
