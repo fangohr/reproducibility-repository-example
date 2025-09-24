@@ -7,6 +7,7 @@ with the publication to allow others to *reproduce* the figure (and *re-use* the
 
 ## Files in this repository:
 
+- [`figure1.pdf`](figure1.pdf): The main result
 - [`figure1.ipynb`](figure1.ipynb): A jupyter notebook to create the `figure1.pdf` file from the raw data
 - [`requirements.txt`](requirements.txt): software specification for Python libraries needed in the notebook
 - [`runtime.txt`](runtime.txt): specify which Python version to use
