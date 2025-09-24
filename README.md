@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fhafan%2Freproducibility-repository-example/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fangohr/reproducibility-repository-example/HEAD?labpath=figure1.ipynb)
 
 # Demonstration of a (file) repository for reproducibility
 
@@ -16,15 +16,16 @@ with the publication to allow others to *reproduce* the figure (and *re-use* the
 
 ## No-install reproduction of `figure1.pdf`
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fangohr/reproducibility-repository-example/HEAD?labpath=figure1.ipynb)
+
+
 Using Binder, it is possible to re-execute this notebook on a cloud resource. This can be tested by following this link:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fhafan%2Freproducibility-repository-example/HEAD) 
-https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fhafan%2Freproducibility-repository-example/HEAD?labpath=figure1.ipynb 
-
-
+- https://mybinder.org/v2/gh/fangohr/reproducibility-repository-example/HEAD - Jupyter lab, can open files in this repository
+- https://mybinder.org/v2/gh/fangohr/reproducibility-repository-example/HEAD?labpath=figure1.ipynb - Jupyter Lab, open notebook figure1.ipynb immediately
 
 It may take a few minutes for this link to redirect to a Notebook in the browser. Once this has arrived, one can reproduce
-the figure by re-executing all cells in the notebook by pressing `SHIFT-RETURN` once for each cell.
+the figure by re-executing all cells in the notebook `figure1.ipynb` by pressing `SHIFT-RETURN` once for each cell.
 
 ## Software dependencies and installation
 
@@ -59,6 +60,4 @@ Useful if mybinder.org is overloaded.
 - Binder at MPCDF: [![Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fhafan%2Freproducibility-repository-example/HEAD)
 
 - Binder at mybinder.org: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fangohr/reproducibility-repository-example/HEAD)
-
-
 
