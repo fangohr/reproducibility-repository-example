@@ -13,6 +13,7 @@ with the publication to allow others to *reproduce* the figure (and *re-use* the
 - [`runtime.txt`](runtime.txt): specify which Python version to use
 - [`time_series_covid19_deaths_global.csv`](time_series_covid19_deaths_global.csv): the raw data
 - [`README.md`](README.md) -- this file
+- [`pixi.toml`](pixi.toml): alternative installation of python and dependencies with [pixi](pixi.sh)
 
 ## No-install reproduction of `figure1.pdf`
 
@@ -29,14 +30,23 @@ the figure by re-executing all cells in the notebook `figure1.ipynb` by pressing
 
 ## Software dependencies and installation
 
-Given Python3 (tested on python3.12.11), one needs to install the
+### Option 1: Python, python virtual environment, dependencies
+
+Given an installed Python3 interpreter (tested on python3.12.11), one needs to install the
 packages listed in [`requirements.txt`](requirements.txt). For example:
 
 ```console
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+python3 -m venv venv             # create virtual environment
+source venv/bin/activate         # activate virtual environment
+pip install -r requirements.txt  # install dependencies
 ```
+
+### Option 2: install everything with pixi
+
+- install [pixi](pixi.sh)
+- run `pixi shell` to install software and activate environment
+
+## How to recreate figure1.pdf locally?
 
 To re-create the [`figure.pdf`](figure1.pdf) file, one needs to run the notebook interactively 
 using `jupyter-notebook figure1.ipynb`, or execute as a script using 
