@@ -13,7 +13,7 @@ with the publication to allow others to *reproduce* the figure (and *re-use* the
 - [`runtime.txt`](runtime.txt): specify which Python version to use
 - [`time_series_covid19_deaths_global.csv`](time_series_covid19_deaths_global.csv): the raw data
 - [`README.md`](README.md) -- this file
-- [`pixi.toml`](pixi.toml): alternative installation of python and dependencies with [pixi](pixi.sh)
+- [`pixi.toml`](pixi.toml): alternative installation of python and dependencies with [pixi](https://pixi.sh)
 
 ## No-install reproduction of `figure1.pdf`
 
@@ -43,7 +43,7 @@ pip install -r requirements.txt  # install dependencies
 
 ### Option 2: install everything with pixi
 
-- install [pixi](pixi.sh)
+- install [pixi](https://pixi.sh)
 - run `pixi shell` to install software and activate environment
 
 ## How to recreate figure1.pdf locally?
