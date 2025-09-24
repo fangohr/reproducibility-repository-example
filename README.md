@@ -44,7 +44,7 @@ pip install -r requirements.txt  # install dependencies
 ### Option 2: install everything with pixi
 
 - install [pixi](https://pixi.sh)
-- run `pixi shell` to install software and activate environment
+- run `pixi shell` to install python 3.12.11, and dependencies and activate environment
 
 ## How to recreate figure1.pdf locally?
 
