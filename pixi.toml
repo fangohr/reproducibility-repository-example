@@ -1,0 +1,17 @@
+[workspace]
+authors = ["Hans Fangohr <fangohr@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "reproducibility-repository-example"
+platforms = ["osx-arm64", "osx-64", "win-64", "linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "==3.12.11"
+pip = "==25.2"
+
+[pypi-dependencies]
+pandas = "==2.3.2"
+matplotlib = "==3.10.6"
+notebook = "==7.4.5"
