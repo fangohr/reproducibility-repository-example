@@ -28,7 +28,7 @@ the figure by re-executing all cells in the notebook by pressing `SHIFT-RETURN` 
 
 ## Software dependencies and installation
 
-Given Python3 (tested on python3.11 and python3.10), one needs to install the
+Given Python3 (tested on python3.13.7), one needs to install the
 packages listed in [`requirements.txt`](requirements.txt). For example:
 
 ```console
@@ -36,12 +36,12 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-To be able to execute the notebooks (to recreate `figure1.pdf`), one also needs to install 
-the Jupyter notebook (for example `pip install notebook==7.0.2`). Run the notebook interactively 
+
+To re-create the [`figure.pdf`](figure1.pdf) file, one needs to run the notebook interactively 
 using `jupyter-notebook figure1.ipynb`, or execute as a script using 
 `jupyter-nbconvert --to html --execute figure1.ipynb`.
 
-Alternatively, explore the notebook using the cloud-hosted mentioned above.  
+Alternatively, explore the notebook using the cloud-hosted Binder option mentioned above.  
 
 ## Data source and license
 
