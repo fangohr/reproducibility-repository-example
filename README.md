@@ -29,7 +29,7 @@ the figure by re-executing all cells in the notebook `figure1.ipynb` by pressing
 
 ## Software dependencies and installation
 
-Given Python3 (tested on python3.13.7), one needs to install the
+Given Python3 (tested on python3.12.11), one needs to install the
 packages listed in [`requirements.txt`](requirements.txt). For example:
 
 ```console
