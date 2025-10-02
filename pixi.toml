@@ -6,6 +6,7 @@ platforms = ["osx-arm64", "osx-64", "win-64", "linux-64"]
 version = "0.1.0"
 
 [tasks]
+reproduce = "jupyter-nbconvert --to html --execute figure1.ipynb"
 
 [dependencies]
 python = "==3.12.11"

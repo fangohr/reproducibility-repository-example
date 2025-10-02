@@ -49,8 +49,9 @@ pip install -r requirements.txt  # install dependencies
 ## How to recreate figure1.pdf locally?
 
 To re-create the [`figure.pdf`](figure1.pdf) file, one needs to run the notebook interactively 
-using `jupyter-notebook figure1.ipynb`, or execute as a script using 
-`jupyter-nbconvert --to html --execute figure1.ipynb`.
+using `jupyter-notebook figure1.ipynb`, or execute as a script using `jupyter-nbconvert --to html --execute figure1.ipynb`.
+
+If using pixi you can run `pixi run reproduce` (see Option 2 above). 
 
 Alternatively, explore the notebook using the cloud-hosted Binder option mentioned above.  
 
